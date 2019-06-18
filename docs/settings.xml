@@ -230,7 +230,7 @@ under the License.
           </repositories>
         </profile>
         -->
-        <profile>
+        <!--<profile>
             <id>env-dev</id>
 
             <activation>
@@ -247,7 +247,7 @@ under the License.
                 <maven.compiler.target>1.8</maven.compiler.target>
                 <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
             </properties>
-        </profile>
+        </profile>-->
         <!--
          | Here is another profile, activated by the system property 'target-env' with a value of 'dev',
          | which provides a specific path to the Tomcat instance. To use this, your plugin configuration
