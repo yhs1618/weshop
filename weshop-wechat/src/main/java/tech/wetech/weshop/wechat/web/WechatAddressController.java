@@ -3,9 +3,9 @@ package tech.wetech.weshop.wechat.web;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-import tech.wetech.weshop.user.api.AddressApi;
-import tech.wetech.weshop.user.dto.AddressDTO;
-import tech.wetech.weshop.user.po.Address;
+import tech.wetech.weshop.api.AddressApi;
+import tech.wetech.weshop.dto.AddressDTO;
+import tech.wetech.weshop.po.Address;
 import tech.wetech.weshop.utils.Constants;
 import tech.wetech.weshop.utils.Result;
 import tech.wetech.weshop.web.BaseController;
@@ -23,6 +23,7 @@ public class WechatAddressController extends BaseController {
 
     @GetMapping("/list")
     public Result<List<AddressDTO>> queryList() {
+        AddressDTO dto =  new AddressDTO();
         return addressApi.queryDetailList();
     }
 

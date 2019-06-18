@@ -6,14 +6,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import tech.wetech.weshop.goods.api.GoodsApi;
-import tech.wetech.weshop.goods.dto.GoodsCategoryDTO;
-import tech.wetech.weshop.goods.dto.GoodsDetailDTO;
-import tech.wetech.weshop.goods.dto.GoodsListDTO;
-import tech.wetech.weshop.goods.dto.GoodsResultDTO;
-import tech.wetech.weshop.goods.po.Goods;
-import tech.wetech.weshop.goods.query.GoodsSearchQuery;
-import tech.wetech.weshop.marketing.dto.BannerInfoDTO;
+import tech.wetech.weshop.api.GoodsApi;
+import tech.wetech.weshop.dto.*;
+import tech.wetech.weshop.po.Goods;
+import tech.wetech.weshop.query.GoodsSearchQuery;
 import tech.wetech.weshop.utils.Result;
 import tech.wetech.weshop.web.BaseController;
 

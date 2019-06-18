@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="tech.wetech.weshop.goods.mapper.GoodsSpecificationMapper">
-    <resultMap id="BaseResultMap" type="tech.wetech.weshop.goods.po.GoodsSpecification">
+<mapper namespace="tech.wetech.weshop.mapper.GoodsSpecificationMapper">
+    <resultMap id="BaseResultMap" type="tech.wetech.weshop.po.GoodsSpecification">
         <!--
           WARNING - @mbg.generated
         -->
@@ -11,7 +11,7 @@
         <result column="value" property="value" jdbcType="VARCHAR"/>
         <result column="pic_url" property="picUrl" jdbcType="VARCHAR"/>
     </resultMap>
-    <select id="selectGoodsDetailSpecificationByGoodsId" resultType="tech.wetech.weshop.goods.bo.GoodsSpecificationBO">
+    <select id="selectGoodsDetailSpecificationByGoodsId" resultType="tech.wetech.weshop.bo.GoodsSpecificationBO">
         SELECT
         gs.*, s.name
         FROM

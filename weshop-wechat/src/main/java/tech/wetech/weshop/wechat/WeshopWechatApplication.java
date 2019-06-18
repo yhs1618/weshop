@@ -17,7 +17,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableWebMvc
 @EnableSwagger2
 @ComponentScan("tech.wetech.weshop")
-@EnableFeignClients("tech.wetech.weshop.*.api")
+@EnableFeignClients("tech.wetech.weshop.api")
 @EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class, DruidDataSourceAutoConfigure.class})
 public class WeshopWechatApplication {
 

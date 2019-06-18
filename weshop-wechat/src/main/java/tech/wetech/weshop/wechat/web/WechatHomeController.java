@@ -4,8 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import tech.wetech.weshop.marketing.api.HomeApi;
-import tech.wetech.weshop.marketing.dto.HomeIndexDTO;
+import tech.wetech.weshop.api.HomeApi;
+import tech.wetech.weshop.dto.HomeIndexDTO;
 import tech.wetech.weshop.utils.Result;
 import tech.wetech.weshop.web.BaseController;
 

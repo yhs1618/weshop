@@ -4,8 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import tech.wetech.weshop.user.api.RegionApi;
-import tech.wetech.weshop.user.po.Region;
+import tech.wetech.weshop.api.RegionApi;
+import tech.wetech.weshop.po.Region;
 import tech.wetech.weshop.utils.Result;
 import tech.wetech.weshop.web.BaseController;
 

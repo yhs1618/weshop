@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="tech.wetech.weshop.goods.mapper.CategoryMapper">
-    <resultMap id="BaseResultMap" type="tech.wetech.weshop.goods.po.Category">
+<mapper namespace="tech.wetech.weshop.mapper.CategoryMapper">
+    <resultMap id="BaseResultMap" type="tech.wetech.weshop.po.Category">
         <!--
           WARNING - @mbg.generated
         -->
@@ -30,7 +30,7 @@
             #{item}
         </foreach>
     </select>
-    <select id="selectByIdIn" resultType="tech.wetech.weshop.goods.po.Category">
+    <select id="selectByIdIn" resultType="tech.wetech.weshop.po.Category">
         select * from weshop_category where id in
         <foreach collection="list" index="index" item="item" open="(" separator="," close=")">
             #{item}

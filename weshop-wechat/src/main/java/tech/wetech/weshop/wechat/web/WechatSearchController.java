@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import tech.wetech.weshop.marketing.api.SearchApi;
-import tech.wetech.weshop.marketing.dto.SearchIndexDTO;
+import tech.wetech.weshop.api.SearchApi;
+import tech.wetech.weshop.dto.SearchIndexDTO;
 import tech.wetech.weshop.utils.Result;
 import tech.wetech.weshop.web.BaseController;
 
